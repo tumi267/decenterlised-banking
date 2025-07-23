@@ -327,89 +327,142 @@ Data stored securely via Supabase Postgres
 
 All API interactions are authenticated
 
-## other apis may inclued but not limmited to and are subject to change
-Smile Identity API (African Identity Verification & KYC)
-Purpose: Fast, mobile-friendly KYC focused on African markets
+## Other APIs May Include But Not Limited To And Are Subject To Change
 
-Core APIs:
+### Smile Identity API (African Identity Verification & KYC)  
+**Purpose:** Fast, mobile-friendly KYC focused on African markets
 
-Document verification: Capture & verify local IDs, passports
+**Core APIs:**  
+- Document verification: Capture & verify local IDs, passports  
+- Facial biometric checks: Selfie match & liveness detection  
+- Watchlist & AML checks: Sanctions screening and risk scoring  
+- Verification callbacks: Webhooks to notify your system of results  
 
-Facial biometric checks: Selfie match & liveness detection
+**Docs:** https://developer.smileidentity.com/  
+**Compliance:** Tailored for African regulatory requirements with easy SDK integration.
 
-Watchlist & AML checks: Sanctions screening and risk scoring
+---
 
-Verification callbacks: Webhooks to notify your system of results
+### Ozow API (Payment & Payout Compliance)  
+**Purpose:** Instant EFT payments and payouts, trusted payment gateway in South Africa
 
-Docs: https://developer.smileidentity.com/
+**Core APIs:**  
+- Payment initiation: Start EFT payment from wallet to bank or mobile money  
+- Payment status: Check status of initiated payments  
+- Payouts: Send money to users/mobile wallets for redemption  
+- Refunds/cancellations: Reverse or cancel payments if needed  
 
-Compliance: Tailored for African regulatory requirements with easy SDK integration.
+**Docs:** https://developer.ozow.com/  
+**Compliance:** Ozow manages PCI DSS and payment regulations, easing your payment compliance burden.
 
-Ozow API (Payment & Payout Compliance)
-Purpose: Instant EFT payments and payouts, trusted payment gateway in South Africa
+---
 
-Core APIs:
+### Jumio API (Identity Verification & KYC)  
+**Purpose:** Global ID verification and biometric identity proofing
 
-Payment initiation: Start EFT payment from wallet to bank or mobile money
+**Core APIs:**  
+- ID Document Verification: Upload or capture images of passports, ID cards, driver’s licenses  
+- Biometric Verification: Face match or liveness detection to confirm identity  
+- AML Screening: Check against global watchlists (sanctions, PEPs)  
+- Verification status & results: Retrieve verification outcomes  
 
-Payment status: Check status of initiated payments
+**Docs:** https://www.jumio.com/developers/  
+**Compliance:** Enterprise-grade KYC & AML compliance globally recognized.
 
-Payouts: Send money to users/mobile wallets for redemption
+---
 
-Refunds/cancellations: Reverse or cancel payments if needed
+### Trulioo API (Global ID & AML Verification)  
+**Purpose:** Cross-border KYC, AML screening, and identity proofing
 
-Docs: https://developer.ozow.com/
+**Core APIs:**  
+- Identity verification: Document and database verification  
+- AML & sanctions screening: Real-time global watchlist checks  
+- Risk scoring: Comprehensive fraud risk assessment  
+- Transaction monitoring (optional): Ongoing AML compliance support  
 
-Compliance: Ozow manages PCI DSS and payment regulations, easing your payment compliance burden.
+**Docs:** https://docs.trulioo.com/  
+**Compliance:** Supports global regulations including FATF, GDPR.
 
-Jumio API (Identity Verification & KYC)
-Purpose: Global ID verification and biometric identity proofing
+---
 
-Core APIs:
+### IdentityPass API (South African Local ID Verification & KYC)  
+**Purpose:** Focused South African ID verification & AML
 
-ID Document Verification: Upload or capture images of passports, ID cards, driver’s licenses
+**Core APIs:**  
+- ID document verification: South African ID checks  
+- Biometric authentication: Facial matching & liveness  
+- AML screening: Local watchlists and risk profiles  
 
-Biometric Verification: Face match or liveness detection to confirm identity
+**Docs:** Contact vendor for API docs (typically private)  
+**Compliance:** Local regulatory compliance focus.
 
-AML Screening: Check against global watchlists (sanctions, PEPs)
+---
 
-Verification status & results: Retrieve verification outcomes
+### Ukheshe API (Full Wallet Infrastructure-as-a-Service)  
+**Purpose:** Complete wallet infrastructure with payments and withdrawals
 
-Docs: https://www.jumio.com/developers/
+**Core APIs:**  
+- Wallet creation  
+- Sending/receiving funds  
+- Withdrawals (to bank accounts, mobile money, and agents)  
+- KYC + virtual cards  
 
-Compliance: Enterprise-grade KYC & AML compliance globally recognized.
+**Highlights:**  
+- Backed by Mastercard  
+- Built for fintechs launching payment apps in South Africa  
+- Similar to MTN MoMo but open to third-party platforms  
 
-Trulioo API (Global ID & AML Verification)
-Purpose: Cross-border KYC, AML screening, and identity proofing
+**Docs:** https://www.ukheshe.com
 
-Core APIs:
+---
 
-Identity verification: Document and database verification
+### Stitch API (Open API-first Banking Platform)  
+**Purpose:** Digital-first wallet and bank account linking
 
-AML & sanctions screening: Real-time global watchlist checks
+**Core APIs:**  
+- Link users’ bank accounts securely  
+- Simulated wallet with balance tracking  
+- Withdrawals via bank transfer  
+- KYC and secure auth flows  
 
-Risk scoring: Comprehensive fraud risk assessment
+**Highlights:**  
+- Perfect for digital wallets without cash-out rail  
+- Developer-friendly with clear docs  
 
-Transaction monitoring (optional): Ongoing AML compliance support
+**Docs:** https://www.stitch.money
 
-Docs: https://docs.trulioo.com/
+---
 
-Compliance: Supports global regulations including FATF, GDPR.
+### Mama Money API (Remittance & Cash-out Services)  
+**Purpose:** Remittance platform with cash-out at retail partners
 
-IdentityPass API (South African Local ID Verification & KYC)
-Purpose: Focused South African ID verification & AML
+**Core APIs:**  
+- Send and receive funds  
+- Cash-out services at Pick n Pay, Boxer, Shoprite, etc.  
 
-Core APIs:
+**Highlights:**  
+- Ideal for enabling cash withdrawals without bank accounts  
+- Access via partner agreements  
 
-ID document verification: South African ID checks
+**Docs:** https://www.mamamoney.co.za/
 
-Biometric authentication: Facial matching & liveness
+---
 
-AML screening: Local watchlists and risk profiles
+### MTN MoMo API (Mobile Money Platform)  
+**Purpose:** Mobile money wallet & cash-out system (restricted access)
 
-Docs: Contact vendor for API docs (typically private)
+**Core APIs:**  
+- Create MoMo wallets  
+- Send/receive money  
+- Withdraw at MoMo agents or partner stores  
 
-Compliance: Local regulatory compliance focus.
+**Notes:**  
+- Access is restricted; requires formal registration and approval  
+- Sometimes accessible via aggregators or partners like Ukheshe  
+
+**Docs:** https://momodeveloper.mtn.com/
+
+---
 
 ## Summary Table of Legal & Compliance API Providers
 
@@ -420,6 +473,12 @@ Compliance: Local regulatory compliance focus.
 | **Smile Identity** | African KYC & identity  | Doc verification, biometric, AML & watchlists | African markets focus      |
 | **Trulioo**    | Global KYC/AML            | Identity + AML screening, transaction monitoring | Global, multi-jurisdictional |
 | **IdentityPass** | South African KYC        | Local ID & biometric verification, AML         | South African specific     |
+| **Ukheshe**    | Wallet infrastructure     | Wallet creation, send/receive, withdrawals, KYC | South African fintech focus |
+| **Stitch**     | Bank account linking & wallets | Bank account linking, wallet simulation, KYC   | South African focus        |
+| **Mama Money** | Remittance & cash-out     | Funds transfer, retail cash withdrawals        | Regional (SA & Africa)     |
+| **MTN MoMo**   | Mobile money wallet       | Wallet, transfers, agent cash-outs              | South African mobile money |
+
+
 
 
 ##How These APIs Help You Offload Legal Risk
