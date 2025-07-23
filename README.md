@@ -467,16 +467,17 @@ All API interactions are authenticated
 ## Summary Table of Legal & Compliance API Providers
 
 | Provider       | Focus                     | Key API Features                              | Regulatory Scope            |
-|----------------|---------------------------|-----------------------------------------------|----------------------------|
-| **Ozow**       | Payment gateway & payouts | EFT payments, payouts, status checks           | PCI DSS, local payment regs|
+|----------------|---------------------------|----------------------------------------------|----------------------------|
+| **Ozow**       | Payment gateway & payouts | EFT payments, payouts, status checks         | PCI DSS, local payment regs|
 | **Jumio**      | Global ID verification & KYC | ID doc verification, biometric, AML screening | Global KYC/AML compliance  |
 | **Smile Identity** | African KYC & identity  | Doc verification, biometric, AML & watchlists | African markets focus      |
 | **Trulioo**    | Global KYC/AML            | Identity + AML screening, transaction monitoring | Global, multi-jurisdictional |
-| **IdentityPass** | South African KYC        | Local ID & biometric verification, AML         | South African specific     |
+| **IdentityPass** | South African KYC        | Local ID & biometric verification, AML       | South African specific     |
 | **Ukheshe**    | Wallet infrastructure     | Wallet creation, send/receive, withdrawals, KYC | South African fintech focus |
-| **Stitch**     | Bank account linking & wallets | Bank account linking, wallet simulation, KYC   | South African focus        |
-| **Mama Money** | Remittance & cash-out     | Funds transfer, retail cash withdrawals        | Regional (SA & Africa)     |
-| **MTN MoMo**   | Mobile money wallet       | Wallet, transfers, agent cash-outs              | South African mobile money |
+| **Stitch**     | Bank account linking & wallets | Bank account linking, wallet simulation, KYC | South African focus        |
+| **Mama Money** | Remittance & cash-out     | Funds transfer, retail cash withdrawals      | Regional (SA & Africa)     |
+| **MTN MoMo**   | Mobile money wallet       | Wallet, transfers, agent cash-outs            | South African mobile money |
+
 
 
 
