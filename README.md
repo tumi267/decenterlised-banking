@@ -326,3 +326,107 @@ End-to-end encryption where required
 Data stored securely via Supabase Postgres
 
 All API interactions are authenticated
+
+## other apis may inclued but not limmited to and are subject to change
+Smile Identity API (African Identity Verification & KYC)
+Purpose: Fast, mobile-friendly KYC focused on African markets
+
+Core APIs:
+
+Document verification: Capture & verify local IDs, passports
+
+Facial biometric checks: Selfie match & liveness detection
+
+Watchlist & AML checks: Sanctions screening and risk scoring
+
+Verification callbacks: Webhooks to notify your system of results
+
+Docs: https://developer.smileidentity.com/
+
+Compliance: Tailored for African regulatory requirements with easy SDK integration.
+
+Ozow API (Payment & Payout Compliance)
+Purpose: Instant EFT payments and payouts, trusted payment gateway in South Africa
+
+Core APIs:
+
+Payment initiation: Start EFT payment from wallet to bank or mobile money
+
+Payment status: Check status of initiated payments
+
+Payouts: Send money to users/mobile wallets for redemption
+
+Refunds/cancellations: Reverse or cancel payments if needed
+
+Docs: https://developer.ozow.com/
+
+Compliance: Ozow manages PCI DSS and payment regulations, easing your payment compliance burden.
+
+Jumio API (Identity Verification & KYC)
+Purpose: Global ID verification and biometric identity proofing
+
+Core APIs:
+
+ID Document Verification: Upload or capture images of passports, ID cards, driver’s licenses
+
+Biometric Verification: Face match or liveness detection to confirm identity
+
+AML Screening: Check against global watchlists (sanctions, PEPs)
+
+Verification status & results: Retrieve verification outcomes
+
+Docs: https://www.jumio.com/developers/
+
+Compliance: Enterprise-grade KYC & AML compliance globally recognized.
+
+Trulioo API (Global ID & AML Verification)
+Purpose: Cross-border KYC, AML screening, and identity proofing
+
+Core APIs:
+
+Identity verification: Document and database verification
+
+AML & sanctions screening: Real-time global watchlist checks
+
+Risk scoring: Comprehensive fraud risk assessment
+
+Transaction monitoring (optional): Ongoing AML compliance support
+
+Docs: https://docs.trulioo.com/
+
+Compliance: Supports global regulations including FATF, GDPR.
+
+IdentityPass API (South African Local ID Verification & KYC)
+Purpose: Focused South African ID verification & AML
+
+Core APIs:
+
+ID document verification: South African ID checks
+
+Biometric authentication: Facial matching & liveness
+
+AML screening: Local watchlists and risk profiles
+
+Docs: Contact vendor for API docs (typically private)
+
+Compliance: Local regulatory compliance focus.
+
+## Summary Table of Legal & Compliance API Providers
+
+| Provider       | Focus                     | Key API Features                              | Regulatory Scope            |
+|----------------|---------------------------|-----------------------------------------------|----------------------------|
+| **Ozow**       | Payment gateway & payouts | EFT payments, payouts, status checks           | PCI DSS, local payment regs|
+| **Jumio**      | Global ID verification & KYC | ID doc verification, biometric, AML screening | Global KYC/AML compliance  |
+| **Smile Identity** | African KYC & identity  | Doc verification, biometric, AML & watchlists | African markets focus      |
+| **Trulioo**    | Global KYC/AML            | Identity + AML screening, transaction monitoring | Global, multi-jurisdictional |
+| **IdentityPass** | South African KYC        | Local ID & biometric verification, AML         | South African specific     |
+
+
+##How These APIs Help You Offload Legal Risk
+You don’t handle or store raw sensitive data; providers handle verification securely.
+
+They provide audit logs and compliance reports you can use for regulatory filings.
+
+They maintain certifications and compliance with data privacy and financial laws.
+
+You integrate their APIs to verify users before allowing transactions, thus reducing fraud and money laundering risk.
