@@ -179,7 +179,7 @@ Your model supports:
 
 Redeeming wallet funds via mobile money or voucher code,
 
-Agent-based withdrawal system, similar to how MTN MoMo or Flash works but open to all banks.
+Agent-based withdrawal system, similar to how MTN MoMo or Flash or vodacom mpesa works but open to all banks.
 
 🟢 Existing bank and fintech apps don’t universally support mobile-to-cash redemption across banks.
 
